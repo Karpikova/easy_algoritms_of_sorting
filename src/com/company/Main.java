@@ -7,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(3, 8, 344, 1, 56);
-        sortPuz(list);
+        sortPuzirek(list);
         System.out.println(list);
 
         list = Arrays.asList(3, 8, 344, 1, 56);
@@ -31,7 +31,7 @@ public class Main {
         return mas;
     }
 
-    static void sortPuz(List<Integer> mas) {
+    static void sortPuzirek(List<Integer> mas) {
         int len = mas.size();
         int count = 0;
         for (int i = 1; i < len; i++) {
